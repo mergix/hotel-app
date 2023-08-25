@@ -1,0 +1,45 @@
+.container{
+ margin: 20px 0px;
+}
+
+
+.grid{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* comment */
+
+.card{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: relative;
+}
+
+.item{
+    border: 5px solid #bbb;
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+
+}
+
+.span{
+    right: 10px;
+    top:10px;
+    position: absolute;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.img{
+    object-fit: cover;
+
+}
